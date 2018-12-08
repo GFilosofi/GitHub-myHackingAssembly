@@ -1,0 +1,9 @@
+0001043c <main>:
+   1043c:	e92d4800 	push	{fp, lr}
+   10440:	e28db004 	add	fp, sp, #4
+   10444:	e59f000c 	ldr	r0, [pc, #12]	; 10458 <main+0x1c>
+   10448:	ebffffa5 	bl	102e4 <puts@plt>
+   1044c:	e3a03000 	mov	r3, #0
+   10450:	e1a00003 	mov	r0, r3
+   10454:	e8bd8800 	pop	{fp, pc}
+   10458:	000104cc 	andeq	r0, r1, ip, asr #9
